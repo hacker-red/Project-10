@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: wheat;
+}
+
+.container {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.container_btn {
+    width: 200px;
+    height: 56px;
+    font-family: 'Mulish400';
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 50px;
+    background-color: green;
+}
+
+.container_btn:hover {
+    background-color: gold;
+    color: black;
+    border-radius: 50px;
+    border-color: gray;
+    transition: .5s;
+}
+
+.container_btn:focus {
+    box-shadow: 0px 0px 10px 10px greenyellow;
+}
+
+.section_btn {
+    width: 300px;
+    height: 350px;
+    border-radius: none;
+    font-size: 15px;
+    font-family: 'Mulish400';
+    line-height: 50px;
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    background-color: green;
+}
+
+.section_btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50px;
+    border-color: gray;
+    transition: .5s;
+
+}
+
+.section_btn:focus {
+    box-shadow: 0px 0px 10px 10px blue;
+}
+
+.section_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_card_1 {
+    width: 300px;
+    height: 350px;
+    margin: 100px; 
+    box-shadow: 20px 20px 5px 10px greenyellow;
+}
+
+.section_card_1:hover{
+    box-shadow: 0px 0px 0px 0px greenyellow;
+}
+
+.section_card_images {
+    width: 90px;
+    height: 80px;
+    margin-left: -170px;
+    margin-top: 15px;
+}
+
+.section_card_title {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.section_card_text {
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    text-align: left;
+}
